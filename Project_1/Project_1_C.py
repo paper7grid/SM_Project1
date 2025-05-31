@@ -31,4 +31,4 @@ else:
 print("You have completed the quiz! Thank you for playing :)")
 print("I hope you enjoyed it!")
 print("You got", score, "out of 4 questions correct.")
-# End of Project_1_C.py
+print("Your score is", (score / 4) * 100, "%")
