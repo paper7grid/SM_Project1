@@ -28,6 +28,30 @@ if answer == "paris":
     score += 1
 else:
     print("Incorrect! the correct answer is Paris")
+answer == input("What is the capital of China? ").lower()
+if answer == "Hong Kong":
+    print("Correct!")
+    score += 1
+else: 
+    print("Incorrect! the correct answer is Hong Kong")
+answer = input("What is the capital of Russia? ").lower()
+if answer == "moscow":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! the correct answer is Moscow")
+answer = input("What is the capital of Australia? ").lower()
+if answer == "canberra":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! the correct answer is Canberra")
+answer = input("What is the capital of Canada? ").lower()
+if answer == "ottawa":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! the correct answer is Ottawa")
 print("You have completed the quiz! Thank you for playing :)")
 print("I hope you enjoyed it!")
 print("You got", score, "out of 4 questions correct.")
