@@ -71,5 +71,5 @@ else:
 print("You have completed the quiz! Thank you for playing :)")
 print("I hope you enjoyed it!")
 print("You got", score, "out of 8 questions correct.")
-print("Your score is", (score / 8) * 100, "%")
+print("Your score is", (score / 8) * 100,"%")
 print("Goodbye!")
