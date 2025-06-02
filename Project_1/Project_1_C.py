@@ -4,50 +4,66 @@ if playing.lower() != "yes":
     quit()
 print("Okay! Let's play :)")
 score = 0
-answer = input("What is the capital of India? ").lower()
-if answer == "delhi":
+print("What is the capital of India? ")
+print("a) Mumbai\nb) Delhi\nc) Kolkata\nd) Chennai")
+answer = input("Your answer: ").lower()
+if answer == "b" or answer == "delhi":
     print("Correct!")
     score += 1
 else: 
     print("Incorrect! the correct answer is Delhi")
-answer == input("What is the capital of USA? ").lower()
-if answer == "washington d.c.":
+print("What is the capital of USA? ")
+print("a) New York\nb) Washington D.C.\nc) Los Angeles\nd) Chicago")
+answer = input("Your answer: ").lower()
+if answer == "b" or answer == "washington d.c.":
     print("Correct!")
     score += 1
 else: 
     print("Incorrect! the correct answer is Washington D.C.")
-answer = input("What is the capital of Japan? ").lower()
-if answer == "tokyo":
+print("What is the capital of Japan? ")
+print("a) Tokyo\nb) Osaka\nc) Kyoto\nd) Hiroshima")
+answer = input("Your answer: ").lower()
+if answer == "a" or answer == "tokyo":
     print("Correct!")
     score += 1
 else:
     print("Incorrect! the correct answer is Tokyo")
-answer = input("What is the capital of France? ").lower()
-if answer == "paris":
+print("What is the capital of France? ")
+print("a) Paris\nb) Lyon\nc) Marseille\nd) Nice")
+answer = input("Your answer: ").lower()
+if answer == "a" or answer == "paris":
     print("Correct!")
     score += 1
 else:
     print("Incorrect! the correct answer is Paris")
-answer == input("What is the capital of China? ").lower()
-if answer == "Hong Kong":
+print("What is the capital of China? ")
+print("a) Shanghai\nb) Hong Kong\nc) Beijing\nd) Shenzhen")
+answer = input("Your answer: ").lower()
+if answer == "c" or answer == "beijing":
     print("Correct!")
     score += 1
 else: 
     print("Incorrect! the correct answer is Hong Kong")
-answer = input("What is the capital of Russia? ").lower()
-if answer == "moscow":
+print("What is the capital of Russia? ")
+print("a) Moscow\nb) St. Petersburg\nc) Novosibirsk\nd) Yekaterinburg")
+answer = input("Your answer: ").lower()
+if answer == "a" or answer == "moscow":
     print("Correct!")
     score += 1
 else:
     print("Incorrect! the correct answer is Moscow")
-answer = input("What is the capital of Australia? ").lower()
-if answer == "canberra":
+print("What is the capital of Australia? ")
+print("a) Sydney\nb) Melbourne\nc) Canberra\nd) Brisbane")
+answer = input("Your answer: ").lower()
+if answer == "c" or answer == "canberra":
     print("Correct!")
     score += 1
 else:
     print("Incorrect! the correct answer is Canberra")
-answer = input("What is the capital of Canada? ").lower()
-if answer == "ottawa":
+print("What is the capital of Canada? ")
+print("a) Toronto\nb) Vancouver\nc) Ottawa\nd) Montreal")
+answer = input("Your answer: ").lower()
+if answer == "c" or answer == "ottawa":
     print("Correct!")
     score += 1
 else:
